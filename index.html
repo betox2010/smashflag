@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- /.website title -->
+        <title>Smash | Flag Football League</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PZHNS6H');</script>
+        <!-- End Google Tag Manager -->
+        
+        <!-- CSS Files -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet" media="screen">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/owl.carousel.css" rel="stylesheet">
+
+        <link rel="icon" type="image/png" href="images/smashicon.png">
+
+        <!-- Colors -->
+        <link href="css/css-index-green.css" rel="stylesheet" media="screen">
+        <script src="js/validacion.js"></script>
+
+
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar-scroll">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZHNS6H"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <!-- /.preloader -->
+        <div id="preloader"></div>
+        <div id="top"></div>
+
+        <!-- /.parallax full screen background image -->
+        <div class="fullscreen landing parallax" style="background-image:url('images/portada.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+
+                            <!-- /.main title -->
+                            <h1 class="wow fadeIn text-center">
+                                ¡YA ESTÁ EN MÉXICO LA MEJOR LIGA DE TOCHO BANDERA!
+                            </h1>
+
+                            <!-- /.logo INICIO -->
+                            <div class="logo wow zoomInDown"> <img class="img-responsive center-block" src="images/logo.png" alt="logo"></div>
+		  
+
+                            <!-- /.header button -->
+                            <div class="head-btn wow fadeOutDown infinite text-center" data-wow-delay="5s">
+                                <a href="#intro" class="btn-primary text-center"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                <!-- <a href="#download" class="btn-default">Download</a> -->
+                            </div>
+                        </div> 
+
+                        <!-- /.signup form FORMULARIO -->
+                        <div class="col-md-4">
+
+                            <div class="signup-header wow fadeIn" data-wow-delay="1s">
+                                <h3 class="form-title text-center">REGÍSTRATE</h3>
+                                <p class="text-center">para recibir más información</p>
+
+                                  <form id="contacto" name="contacto" class="form-header" action="mail.php" method="post" onsubmit="return valida_Formulario();">
+
+                                    <!-- NOMBRE -->
+                                    <div class="form-group">
+                                      <label for="inputnombre"></label>
+                                      <input type="text" class="form-control input-lg" id="nombre" name="nombre" placeholder="*Nombre" onchange="validaSoloTexto(this);">
+                                    </div>
+
+                                    <!-- CORREO -->
+                                    <div class="form-group">
+                                      <label for="inputcorreo"></label>
+                                      <input type="email" class="form-control input-lg" id="correo" name="correo" placeholder="*Correo electrónico" onchange="validaEmail(this);">
+                                    </div>
+                                    
+                                    <!-- TELÉFONO -->
+                                    <div class="form-group">
+                                      <label for="inputtelefono"></label>
+                                      <input type="number" class="form-control input-lg" id="telefono" name="telefono" placeholder="*Teléfono" maxlength="10" required>
+                                    </div>
+
+                                    <!-- OPCIONES -->
+                                    <div class="form-group">
+                                      <label for="inputrama"></label>
+                                      <select class="form-control input-lg" name="rama" id="rama">
+                                        <option value="">Rama de interés</option>
+                                        <option value="0">Femenil</option>
+                                        <option value="1">Varonil</option>
+                                        <option value="2">Mixto</option>
+                                      </select>
+                                    </div>
+
+                                    <!-- MENSAJE -->
+                                    <div class="form-groupz">
+                                      <label for="inputmensaje"></label>
+                                      <textarea class="form-control input-lg" rows="3" id="mensaje" name="mensaje" placeholder="Escribe tus dudas"></textarea>
+                                    </div>
+
+
+                                    <div class="form-group last">
+                                        <input type="submit" class="btn btn-warning btn-block btn-lg" value="ENVIAR">
+                                    </div>
+
+                                    <p class="privacy text-center"><br>Protegemos tus datos y los usamos solo para fines de inscripción a la Smash Flag Football League <!--<a href="privacy.html">privacy policy</a>. --></p>
+                                </form>
+                            </div>				
+
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <!-- NAVIGATION -->
+        <div id="menu">
+            <nav class="navbar-wrapper navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand site-name" href="#top"><img src="images/logo2.png" alt="Smash"></a>
+                    </div>
+
+                    <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#intro">¿QUÉ ES SMASH?</a></li>
+                            <li><a href="#feature">TORNEO</a></li>
+                            <!--
+                            <li><a href="#package">RAMAS</a></li>
+                            -->
+                            <li><a href="#download">SCRIMMAGE</a></li>
+                            <li><a href="#testi">PATROCINADORES</a></li>
+                            <li><a href="#footer">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- /.intro section QUE ES SMASH-->
+        <div id="intro">
+            <div class="container">
+                <div class="row">
+
+                    <!-- /.intro image -->
+                    <div class="col-md-6 intro-pic wow slideInLeft">
+                        <img src="images/intro-image.jpg" alt="smash" class="img-responsive">
+                    </div>	
+
+                    <!-- /.intro content -->
+                    <div class="col-md-6 wow slideInRight">
+                        <h2>¿QUÉ ES SMASH?</h2>
+                          <p>Somos un liga de tocho bandera en donde fomentamos la sana diversión y la
+                          competitividad en un ambiente familiar.</p>
+                        <!-- BOTON SECUNDARIO
+                        <div class="btn-section"><a href="#feature" class="btn-default">Learn More</a></div> 
+                        -->
+                    </div>
+                </div>			  
+            </div>
+        </div>
+
+        <!-- /.feature section -->
+        <div id="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+
+                        <!-- /.feature title TORNEO -->
+                        <h2>¡LA TEMPORADA ESTÁ POR EMPEZAR!</h2>
+                        <!--
+                          <p class="descripcion">KICKOFF: 23 de septiembre</p>
+                          -->
+                    </div>
+                </div>
+
+                <div class="row row-feat">
+                    <div class="col-md-4 text-center">
+
+                        <!-- /.feature image -->
+                        <div class="feature-img">
+                            <img src="images/feature-image.png" alt="Torneo Smash otoño 2017" class="img-responsive wow fadeInLeft">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <div class="col-md-12 text-left">
+                          <p>Buscamos que la competencia sea justa, por ello, nuestras jornadas en la temporada son largas, <br>así la competencia será mas cerrada y los premios mejor repartidos. <br>
+                          </p>
+                        </div>
+                        
+                        <!-- /.feature 1 DURACIÓN-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-date pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
+                            <div class="inner">
+                                <h4>DURACIÓN</h4>
+                                  <ul>
+                                      <li>11 semanas</li>
+                                      <li>2 scrimmage</li>
+                                      <li>7 temporadas regulares</li>
+                                      <li>Playoffs (Semifinal y final)</li>
+                                      <li>Aprox. 50 min por juego</li>
+                                  </ul>
+                            </div>
+                        </div>
+                               
+                        <!-- /.feature 5 PREMIOS-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-cup pe-5x pe-va wow fadeInUp" data-wow-delay="0.3s"></i>
+                            <div class="inner">
+                                <h4>PREMIOS</h4>
+                                <ul>
+                                      <li>1<sup>er</sup> lugar: Viaje y playera de campeón</li>
+                                      <li>2<sup>do</sup> lugar: Regalo de patrocinadores</li>
+                                      <li>3<sup>er</sup> lugar: Bandera personalizadas</li>
+                                      <li>Banderas para el MVP de la semana<br>de cada rama</li>
+                                      <li>Playeras para participantes del tazón MVP</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 4 RAMAS-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-menu pe-5x pe-va wow fadeInUp" data-wow-delay="0.4s"></i>
+                            <div class="inner">
+                                <h4>RAMAS</h4>
+                                <p> Femenil, varonil y mixto</p>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 2 HORARIO-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-clock pe-5x pe-va wow fadeInUp" data-wow-delay="0.5s"></i>
+                            <div class="inner">
+                            <h4>HORARIO</h4>
+                                <p>Sábados desde las 8 am</p>
+                                
+                            </div>
+                        </div>
+
+                        <!-- /.feature 6 BENEFICIOS-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-check pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
+                            <div class="inner">
+                              <h4>BENEFICIOS</h4>
+                                <ul>
+                                  <li>Fotografía por equipo y por jugador</li>
+                                  <li>Estadísticas por jugador, equipo y torneo</li>
+                                  <li>Actividades para acompañantes como rifas, dinámicas y premios</li>
+                                  <li>Foodtrucks</li>
+                                  <li>Médico</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- /.feature 3 LUGAR-->
+                        <div class="col-sm-6 feat-list">
+                            <i class="pe-7s-map-marker pe-5x pe-va wow fadeInUp" data-wow-delay="0.7s"></i>
+                            <div class="inner">
+                                <h4>LUGAR</h4>
+                                <p>Campo Pachuca Arboledas</p>
+                            </div>
+                        </div>
+
+                        <!-- /.download button  BOTÓN INSCRIPCIÓN-->
+                            <div class="download-cta wow fadeInUp text-center">
+                                <a href="#top" class="btn-secondary">+ INFO</a>
+                            </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- /.download section -->
+        <div id="download">
+            <div class="action fullscreen parallax" style="background-image:url('images/scrimmage.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+                <div class="overlayscrim">
+                    <div class="container">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+
+                            <!-- /.download title -->
+                            <h2>¿QUIERES HACER UNA PRUEBA?</h2>
+                            <p class="download-text wow fadeInUp"><span class="scrimdesc">¡Participa en un scrimmage!</span> <br> Te esperamos en Campo Pachuca Arboledas a partir de las 8 am</p>
+                        </div>	
+                    </div>	
+                </div>
+            </div>
+        </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- /.testimonial section -->
+        <div id="testi">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="wow fadeIn">PATROCINADORES</h2>
+                    <div class="title-line wow fadeInLeft"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">	
+                        <div id="owl-testi" class="owl-carousel owl-theme wow fadeIn">
+
+                            <!-- /.testimonial 1 -->
+                            <div class="testi-item">
+                                <div class="client-pic text-center">
+                                    <!-- /.client photo -->
+                                    <img src="images/client-pic.png" alt="">
+                                </div>
+
+                                <div class="box">
+                                    <!-- /.testimonial content -->
+                                    <p class="message text-center">Participa con tu inscripción para ganar un boleto doble y entrena con jugadores de la NFL</p>
+                                </div>
+                            </div>		
+
+
+
+                            <!-- /.testimonial 1 -->
+                            <div class="testi-item">
+                                <div class="client-pic text-center">
+                                    <!-- /.client photo -->
+                                    <img src="images/client-pic3.png" alt="">
+                                </div>
+
+                                <div class="box">
+                                    <!-- /.testimonial content -->
+                                    <p class="message text-center">Inscribe las 3 ramas y obtén un descuento</p>
+                                </div>
+                            </div>    
+
+
+                        </div>
+                    </div>	
+                </div>	
+            </div>
+        </div>
+
+        
+
+          <div id="client"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <img alt="Gatorade" src="images/client1.png" class="wow flipInX">
+                        <img alt="Mexicamps" src="images/client2.png" class="wow flipInX" data-wow-delay="0.2s">
+                        <img alt="Vive Satélite" src="images/client3.png" class="wow flipInX" data-wow-delay="0.4s">
+                        <img alt="Cowbells" src="images/client4.png" class="wow flipInX" data-wow-delay="0.6s">
+                        <img alt="DZX Flags" src="images/client5.png" class="wow flipInX" data-wow-delay="0.8s">
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <!-- /.footer -->
+        <footer id="footer">
+            <div class="container">
+
+                <div class="row text-center">
+                  <div class="text-center">
+                      <img src="images/smash-logo-footer.png" class="text-center logofoot" alt="Smash Flag Football League">
+
+                      <a href="#" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                  </div>	
+               
+
+
+                    <div class="social text-center">
+                      <!-- /.social links -->
+                          <ul>
+                              <!-- <li><a class="wow fadeInUp" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li> -->
+                              <li><a class="wow bounceIn text-center" href="https://www.facebook.com/smashflag/" target="_blank" data-wow-delay="0.3s"><i class="fa fa-facebook"></i></a></li>
+
+                              <li><a class="wow bounceIn text-center" href="https://www.instagram.com/smashflag/" target="_blank" data-wow-delay="0.5s"><i class="fa fa-instagram"></i></a></li>
+                              
+                              <li><a class="wow bounceIn text-center" href="mailto:smashflag@gmail.com" target="_blank" data-wow-delay="0.7s"><i class="fa fa-envelope"></i></a></li>
+
+                              <li><a class="wow bounceIn text-center" href="tel:5533232733" data-wow-delay="0.9s"><i class="fa fa-phone"></i></a></li>
+                              <div class="text-center piesocial">&copy; 2017 - SMASH Flag Football League</a></div>
+                          </ul>
+                    </div>
+                </div>
+
+            </div>	
+        </footer>
+
+        <!-- /.javascript files -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script>
+                                    new WOW().init();
+        </script>
+    </body>
+</html>
